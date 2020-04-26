@@ -202,3 +202,43 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
+
+.btn {
+animation-name: example;
+animation-duration: 10s;
+}
+@keyframes example {
+from {background-color: white;}
+to {background-color: auto;}
+}
+
+.btn-wrapper a
+{
+  background-color: blank;
+  position: relative;
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes example1 {
+  0% {background-color: inherit; left:500px; top:0px;}
+  50%  {background-color: inherit; left:0%; top:0px;}
+}
+
+.btn-wrapper p
+{
+  background-color: blank;
+  position: relative;
+  animation-name: example2;
+  animation-duration: 5s;
+}
+
+@keyframes example2 {
+  0% {background-color: inherit; right:500px; top:0px;}
+  50%  {background-color: inherit; right:0%; top:0px;}
+}
+.btn-wrapper a,p {
+  animation-timing-function: ease-out;
+}
