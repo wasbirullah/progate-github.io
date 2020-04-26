@@ -50,36 +50,6 @@ a {
   margin: 10px 0;
 }
 
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
 header {
   height: 65px;
   width: 100%;
@@ -241,4 +211,35 @@ to {background-color: auto;}
 }
 .btn-wrapper a,p {
   animation-timing-function: ease-out;
+}
+.try {
+  background-color: #9C27B0;
+  margin-right: 10px;
+}
+
+.discover {
+  background-color: orange;
+  margin-right: 10px;
+}
+
+.contact {
+  background-color: green;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 20px 40px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
 }
